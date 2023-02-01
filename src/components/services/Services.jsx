@@ -13,7 +13,7 @@ const Services = () => {
   return (
     <section className="services section" id="services">
         <h2 className="section__title">Services</h2>
-        <span className="section__subtitle">What I Offer</span>
+        <span className="section__subtitle">Who I am</span>
 
         <div className="services__container container grid">
             <div className="services__content">
@@ -35,7 +35,7 @@ const Services = () => {
 
                         <h3 className="services__modal-title">Product Designer</h3>
                         <p className="services__modal-description">
-                            Service with more than 2 years of experience.
+                            I'm able to product design.
                             Providing quality work to clients and companies.
                         </p>
 
@@ -90,7 +90,7 @@ const Services = () => {
 
                         <h3 className="services__modal-title">UI/UX Designer</h3>
                         <p className="services__modal-description">
-                            Service with more than 2 years of experience.
+                            I'm able to design UI/UX.
                             Providing quality work to clients and companies.
                         </p>
 
@@ -145,7 +145,7 @@ const Services = () => {
 
                         <h3 className="services__modal-title">Visual Designer</h3>
                         <p className="services__modal-description">
-                            Service with more than 2 years of experience.
+                            I'm a visual designer.
                             Providing quality work to clients and companies.
                         </p>
 

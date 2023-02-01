@@ -1,30 +1,43 @@
-import Image1 from '../../assets/testimonial1.png';
-import Image2 from '../../assets/testimonial2.png';
-import Image3 from '../../assets/testimonial3.png';
+import Image1 from '../../assets/project-1.png';
+import Image2 from '../../assets/project-2.png';
+import Image3 from '../../assets/project-3.png';
+import Image4 from '../../assets/project-4.png';
+
 
 export const Data = [
     {
         id: 1,
         image: Image1,
-        title: "John Doe",
+        title: "E-commerce website",
         description: 
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet justo donec enim diam vulputate ut. Nec ultrices dui sapien eget mi."
-
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        link: "https://github.com/vanbats1122/ecommerce",
     },
     {
         id: 2,
         image: Image2,
-        title: "John Doe",
+        title: "Delievery website",
         description: 
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet justo donec enim diam vulputate ut. Nec ultrices dui sapien eget mi."
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        link: "https://github.com/vanbats1122/delievery",
+
 
     },
     {
         id: 3,
         image: Image3,
-        title: "John Doe",
+        title: "Exercise dictionary",
         description: 
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet justo donec enim diam vulputate ut. Nec ultrices dui sapien eget mi."
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        link: "https://github.com/vanbats1122/exercise",
+    },
+    {
+        id: 4,
+        image: Image4,
+        title: "Admin board",
+        description: 
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        link: "https://github.com/vanbats1122/adminboard",
 
     },
 
