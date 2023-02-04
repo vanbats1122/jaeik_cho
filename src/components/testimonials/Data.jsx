@@ -16,7 +16,7 @@ export const Data = [
     {
         id: 2,
         image: Image2,
-        title: "Delievery website",
+        title: "Delivery website",
         description: 
         "Modern looking website for any industry. Implemented framer motion library to animate motion of images. Used Next JS and Tailwind CSS. Navigation bar is located at the top of the page. Warm tone color gives overall bright and passionate feeling to the customers.",
         link: "https://github.com/vanbats1122/delievery",
