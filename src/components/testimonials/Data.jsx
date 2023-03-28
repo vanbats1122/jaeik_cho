@@ -39,6 +39,7 @@ export const Data = [
         "Combined React JS with Syncfusion to create an admin board that can be used in any type of businesses. Implemented customizable color and light/dark mode features to improve user's experience. It contains any types of data helpful for working environment. ",
         link: "https://github.com/vanbats1122/adminboard",
 
-    },
+    }
+    
 
 ];

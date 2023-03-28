@@ -45,6 +45,25 @@
     background-color: var(--title-color) !important;
 }
 
+.swiper-button {
+    position: absolute;
+    z-index: 100;
+    cursor: pointer;
+  }
+  .swiper-button svg {
+    width: 5.5rem;
+    height: 5.5rem;
+  }
+  .swiper-button-prev {
+    left: 0;
+  }
+  .swiper-button-next {
+    right: 0;
+  }
+  .swiper-button-disabled {
+    opacity: 0.5;
+  }
+
 /* ============== BREAKPOINTS ================*/
 /* For large devices */
 @media screen and (max-width: 992px) {
