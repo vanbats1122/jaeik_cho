@@ -13,9 +13,6 @@ import "swiper/css/pagination";
 //import required modules
 import { Navigation, Pagination } from 'swiper';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
-
 
 const Testimonials = () => {
     
@@ -69,7 +66,7 @@ const Testimonials = () => {
                         <h3 className="testimonial__name">{title}</h3>
                         <p className="testimonial__description">{description}</p>
                         <button className='testimonial__link'>
-                            <a href={link}>Source Code</a>
+                            <a href={link}>View Demo</a>
                         </button>
                     </SwiperSlide>
                 );

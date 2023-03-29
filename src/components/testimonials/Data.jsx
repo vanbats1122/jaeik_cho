@@ -2,6 +2,7 @@ import Image1 from '../../assets/project-1.png';
 import Image2 from '../../assets/project-2.png';
 import Image3 from '../../assets/project-3.png';
 import Image4 from '../../assets/project-4.png';
+import Image5 from '../../assets/project-5.png';
 
 
 export const Data = [
@@ -38,6 +39,15 @@ export const Data = [
         description: 
         "Combined React JS with Syncfusion to create an admin board that can be used in any type of businesses. Implemented customizable color and light/dark mode features to improve user's experience. It contains any types of data helpful for working environment. ",
         link: "https://github.com/vanbats1122/adminboard",
+
+    },
+    {
+        id: 5,
+        image: Image5,
+        title: "Kanban",
+        description: 
+        "Incorporated Typescript  with React JS to create an Kanban  that can be used to manage daily to-dos. Possible to describe title, description and workflow of the daily duties. Furthermore, it is possible to change the state of the daily task across the column. ",
+        link: "https://vanbats1122.github.io/kanban/",
 
     }
     
