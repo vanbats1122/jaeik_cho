@@ -30,7 +30,7 @@ export const Data = [
         title: "Exercise dictionary",
         description: 
         "Used React JS to demonstrate exercise browsing website with modern looks. Fetched Rest API from an open source. Implemented a search bar where users can search any type of exercise they are looking for. Once clicked, the website navigates to a separate page.",
-        link: "https://github.com/vanbats1122/exercise",
+        link: "https://vanbats1122.github.io/exercise/",
     },
     {
         id: 4,
