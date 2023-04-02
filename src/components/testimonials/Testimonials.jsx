@@ -3,7 +3,7 @@ import './testimonial.css';
 import { Data } from "./Data";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+import { IoChevronBackCircleOutline, IoChevronForwardCircleOutline } from "react-icons/io5";
 
 // Import Swiper styles
 import "swiper/css";
@@ -22,10 +22,10 @@ const Testimonials = () => {
         <span className="section__subtitle">Summary of my Work</span>
 
         <div className="swiper-button swiper-button-next">
-                <IoIosArrowForward />
+                <IoChevronForwardCircleOutline />
         </div>
         <div className="swiper-button swiper-button-prev">
-                <IoIosArrowBack />
+                <IoChevronBackCircleOutline />
         </div>
       
 
@@ -56,6 +56,7 @@ const Testimonials = () => {
           }}
         >
         
+        
             {Data.map(({id, image, title, description, link}) => {
                 return (
                     
@@ -71,7 +72,6 @@ const Testimonials = () => {
                     </SwiperSlide>
                 );
             })}
-
            
         </Swiper>
         
